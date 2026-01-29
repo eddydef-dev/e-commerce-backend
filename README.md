@@ -44,7 +44,7 @@ Authorization: Bearer <token>
 
 ### 1. Clonar repositorio
 
-```bash
+
 git clone https://github.com/tu-usuario/ecommerce-backend.git
 
 ---
