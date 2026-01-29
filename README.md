@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # E-commerce Backend API
 
 Backend REST API para un sistema de e-commerce, desarrollado con Node.js y MongoDB.
@@ -48,9 +47,13 @@ Authorization: Bearer <token>
 ```bash
 git clone https://github.com/tu-usuario/ecommerce-backend.git
 
+---
+
 ### 2. Instalar dependencias
 
 npm install
+
+---
 
 ### 3. Variables de entorno
 
@@ -59,6 +62,7 @@ PORT=3990
 MONGO_URI=mongodb://localhost:27017/ecommerce
 JWT_SECRET=your_secret_here
 
+---
 
 ### 4. Ejecutar Servidor
 
@@ -66,6 +70,8 @@ npm start
 
 ## El servidor quedará disponible en:
 http://localhost:3990
+
+---
 
 ### Endpoints Principales
 
@@ -85,12 +91,10 @@ PUT /api/products/:id (admin)
 
 DELETE /api/products/:id (admin)
 
+---
+
 ### Notas
 
 Proyecto en desarrollo (v1).
 
 Próximas mejoras: pedidos, pagos simulados, testing y documentación con Swagger.
-=======
-# E-commerce
-Desarrollo de API REST con autenticación JWT, gestión de productos y pedidos, simulación de pagos e integración de base de datos.
->>>>>>> 006af08cb7fa65f5657891046d7f6d26ac6a389a
