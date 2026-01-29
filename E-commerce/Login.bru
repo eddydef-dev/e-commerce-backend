@@ -1,0 +1,21 @@
+meta {
+  name: Login
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3990/api/user/login
+  body: formUrlEncoded
+  auth: inherit
+}
+
+body:form-urlencoded {
+  email: eddy@eddy.com
+  password: contraseña123
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

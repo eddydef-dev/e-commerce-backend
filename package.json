@@ -1,0 +1,33 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "Desarrollo de API REST con autenticación JWT, gestión de productos y pedidos, simulación de pagos e integración de base de datos.",
+  "homepage": "https://github.com/eddydef-dev/E-commerce#readme",
+  "bugs": {
+    "url": "https://github.com/eddydef-dev/E-commerce/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddydef-dev/E-commerce.git"
+  },
+  "license": "ISC",
+  "author": "Eddy Torres",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^9.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
