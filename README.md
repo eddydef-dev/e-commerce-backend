@@ -45,7 +45,7 @@ Authorization: Bearer <token>
 ### 1. Clonar repositorio
 
 
-git clone https://github.com/tu-usuario/ecommerce-backend.git
+git clone https://github.com/eddydef-dev/e-commerce-backend.git
 
 ---
 
@@ -66,7 +66,10 @@ JWT_SECRET=your_secret_here
 
 ### 4. Ejecutar Servidor
 
+```bash
 npm start
+
+```
 
 ## El servidor quedará disponible en:
 http://localhost:3990
@@ -77,12 +80,16 @@ http://localhost:3990
 
 ## Auth
 
+```bash
 POST /api/user/register
 
 POST /api/user/login
 
+```
+
 ## Products
 
+```bash
 GET /api/products
 
 POST /api/products (admin)
@@ -90,6 +97,8 @@ POST /api/products (admin)
 PUT /api/products/:id (admin)
 
 DELETE /api/products/:id (admin)
+
+```
 
 ---
 
